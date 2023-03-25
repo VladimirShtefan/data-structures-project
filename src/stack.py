@@ -39,17 +39,4 @@ class Stack:
         self.top = self.top.next_node
         return prev_top.data
 
-
-
-# stack = Stack()
-# print(stack.top)  # None
-#
-# stack.push('data1')
-# print(stack.top.data)  # data1
-#
-# stack.push('data2')
-# print(stack.top.data) # data2
-#
-# stack.push('data3')
-# print(stack.top.data) # data3
-#
+    # def __str__(self):
